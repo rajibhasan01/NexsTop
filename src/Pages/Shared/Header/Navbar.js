@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
+import * as BiIcons from 'react-icons/bi';
+import * as GaIcons from 'react-icons/gi';
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Navbar.css';
@@ -37,15 +39,15 @@ function Navbar() {
                 <div className={scrolling ? '' : 'nav-color'}>
                     <div className={scrolling ? "navbar" : "navbar-hidebg"}>
                         <Link to='#' className='menu-bars text-decoration-none'>
-                            <FaIcons.FaBars onClick={showSidebar} className={scrolling ? 'text-dark' : 'text-white'} />
+                            <FaIcons.FaBars onClick={showSidebar} className={scrolling ? 'text-dark fs-3' : 'Btext-color fs-3'} />
 
-                            <h3 className="ms-3 d-none text-color-second d-md-inline"><span className="title-color mx-0">Nexs</span>Top</h3>
+                            <h3 className="ms-3 d-none text-color-second d-md-inline"><span className="title-color mx-0">Nexs</span>Top<GaIcons.GiCommercialAirplane /></h3>
                         </Link>
                         <div className="me-0 mt-2 ms-auto d-flex text-color-second">
-                            <FaIcons.FaPhoneAlt className={scrolling ? "d-none d-md-block mt-2" : "d-none d-md-block mt-2 text-white"} />
+                            <FaIcons.FaPhoneAlt className="d-none d-md-block mt-2" />
                             <p className="me-5 text-muted fw-lighter ms-3 d-none d-md-block mt-1">01754-063712</p>
 
-                            <FaIcons.FaUser className={scrolling ? "me-2 mt-2" : "me-2 mt-2 text-white"} />
+                            <FaIcons.FaUser className="me-2 mt-2" />
                             {
                                 !user.email ? <p className="me-5 fw-light mt-1 text-muted login-cursor" onClick={handlePage}>Login</p>
                                     :
@@ -63,7 +65,7 @@ function Navbar() {
                                     <AiIcons.AiOutlineClose />
                                 </Link>
 
-                                <h3 className="ms-4 mt-1 pt-1 text-color-second"><span className="title-color mx-0">Nexs</span>Top</h3>
+                                <h3 className="ms-3 pt-1 text-color-second"><span className="title-color mx-0">Nexs</span>Top<GaIcons.GiCommercialAirplane /></h3>
                             </li>
                             {SidebarData.map((item, index) => {
                                 return (
