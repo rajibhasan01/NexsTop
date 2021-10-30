@@ -1,0 +1,47 @@
+.register-bg{
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}
+
+
+.register-form{
+    position: relative;
+
+}
+
+.register-sidebox{
+    position: absolute;
+    padding: 5px;
+
+}
+.register-picture{
+    width: 200px;
+}
+.icon-color{
+    color: #040035;
+}
+
+.btn-design-register{
+    background-color: #159463;
+    color: rgb(250, 250, 250);
+    font-weight: 600;
+}
+
+.btn-design-register:hover{
+    background-color: #cf0000;
+    color: rgb(250, 250, 250);
+    font-weight: 600;
+}
+.link-text:hover{
+    color: tomato!important;
+}
+
+
+
+@media (max-width:500px){
+.input-box{
+    width: 100%!important;
+
+}
+}
