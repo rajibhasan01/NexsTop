@@ -1,0 +1,10 @@
+.text-size{
+    font-size: 4rem;
+}
+.img-hover{
+    transition: transform 500ms ease-in-out 25ms;
+}
+
+.img-hover:hover{
+     transform: translateX(0px) translateY(-5px) scale(1.08);
+}

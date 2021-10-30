@@ -12,7 +12,7 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-md-6 ">
                                 <div className="logo-part">
-                                    <img src="https://i.ibb.co/zVc0hcp/Pik-Png-com-avengers-logo-png-316727.png" alt="" className="logo-size pb-5" />
+                                    <img src="https://i.ibb.co/G5FchTN/20150507110955973.jpg" alt="" className="w-75 pb-5 rounded-circle" />
 
                                     <p>7637 Laurel Dr.King Of Prussia, PA 19406</p>
                                     <p>Use this tool as test data for an automated <br /> system or find your next pen</p>
