@@ -9,6 +9,10 @@ import Footer from './Pages/Shared/Footer/Footer';
 import Navbar from './Pages/Shared/Header/Navbar';
 import NotFound from './Pages/NotFound/NotFound';
 import ServiceProvider from './Pages/ServiceProvider/ServiceProvider';
+import Guides from './Pages/Guides/Guides/Guides';
+import GuideDetails from './Pages/Guides/GuideDetails/GuideDetails';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import SingleServiceDetails from './Pages/SingleServiceDetails/SingleServiceDetails';
 
 
 
@@ -24,6 +28,12 @@ function App() {
             <Route path='/login' component={Login} />
             <Route path='/register' component={Register} />
             <Route path='/servicesprovider' component={ServiceProvider} />
+            <Route path='/guides' component={Guides} />
+            <Route path='/guide/:drID' component={GuideDetails} />
+            <PrivateRoute path='/home/:serviceID'>
+              <SingleServiceDetails />
+            </PrivateRoute>
+
             <Route path='*' component={NotFound} />
 
 

@@ -1,202 +1,98 @@
 {
-    "Diagnosis": [
-        {
-            "id": 1,
-            "D_name": "Bronchoscopy",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/mhdqKc1/img-1.jpg"
-        },
-        {
-            "id": 2,
-            "D_name": "Parathyroid Scan",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/MkKPrst/img-2.jpg"
-        },
-        {
-            "id": 3,
-            "D_name": "Orthotics",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/GkjzdpC/img-3.jpg"
-        },
-        {
-            "id": 4,
-            "D_name": "Captopril Renography",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/3zVM4DZ/img-4.webp"
-        },
-        {
-            "id": 5,
-            "D_name": "Full Blood Count",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/TgnPpNV/img-5.jpg"
-        },
-        {
-            "id": 6,
-            "D_name": "Head CT",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/SJhdhMn/img-6.jpg"
-        },
-        {
-            "id": 7,
-            "D_name": "Mammography",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/VCD9tZk/img-7.jpg"
-        }
-    ],
-    "Therapy": [
-        {
-            "id": 8,
-            "D_name": "Healthy Teeth",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/hfnNsSH/img-8.jpg"
-        },
-        {
-            "id": 9,
-            "D_name": "Non-invsive",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/vzTvB7y/img-9.jpg"
-        },
-        {
-            "id": 10,
-            "D_name": "Orthotics",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/fpwDRqZ/img-10.jpg"
-        },
-        {
-            "id": 11,
-            "D_name": "Full Body MRI Scan",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/Jvb3kBS/img-11.webp"
-        }
-    ],
-    "Lab": [
-        {
-            "id": 12,
-            "D_name": "Laboratory Tests",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/LRYfbQz/img-12.jpg"
-        },
-        {
-            "id": 13,
-            "D_name": "Test Analysis",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/wRy2SYv/img-13.webp"
-        },
-        {
-            "id": 14,
-            "D_name": "Blood Tests",
-            "price": "300",
-            "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-            "img": "https://i.ibb.co/dJXRp7p/img-14.jpg"
-        }
-    ],
     "Blog": [
         {
-            "id": 15,
+            "id": 1,
             "D_name": "Our Next Level of Care",
             "type": "Cardiology",
             "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
             "img": "https://i.ibb.co/L8gQ6nm/Aerial-view-of-Berlin-skyline-with-famous-TV-tower-and-Spree-river-in-beautiful-evening-light-at-sun.jpg"
         },
         {
-            "id": 16,
+            "id": 2,
             "D_name": "Care That Goes Beyond",
             "type": "Gynecology",
             "description": "Mauris pellentesque amet, consectetur adipiscing elit hasellus. Tempor accumsan dapbus pellentesque amet liqua.",
             "img": "https://i.ibb.co/XC5nnmB/A-Dubai-cityscape-is-pictured-at-sunset-The-city-is-illuminated-in-the-bottom-portion-of-the-frame-b.jpg"
         },
         {
-            "id": 17,
+            "id": 3,
             "D_name": "Blood Tests",
             "type": "Neurology",
             "description": "Vestibulum gravida augue, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan apibus liqua.",
             "img": "https://i.ibb.co/qFhjPtZ/view-on-Bruges-Bergen-Norway.jpg"
         },
         {
-            "id": 18,
+            "id": 4,
             "D_name": "Our Next Level of Care",
             "type": "Cardiology",
             "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
             "img": "https://i.ibb.co/3RG5wMF/Aerial-view-of-London-and-the-Tower-Bridge-England-United-Kingdom.jpg"
         },
         {
-            "id": 19,
+            "id": 5,
             "D_name": "Care That Goes Beyond",
             "type": "Gynecology",
             "description": "Mauris pellentesque amet, consectetur adipiscing elit hasellus. Tempor accumsan dapbus pellentesque amet liqua.",
             "img": "https://i.ibb.co/cc5hKDD/High-quality-stock-aerial-view-photo-of-Sacramento-s-Tower-Bridge-and-the-Sacramento-River-looking-t.jpg"
         },
         {
-            "id": 20,
+            "id": 6,
             "D_name": "Blood Tests",
             "type": "Neurology",
             "description": "Vestibulum gravida augue, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan apibus liqua.",
             "img": "https://i.ibb.co/k8xr7Zs/high-angle-view-from-drone-point-of-Spiez-town.jpg"
         },
         {
-            "id": 21,
+            "id": 7,
             "D_name": "Our Next Level of Care",
             "type": "Cardiology",
             "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
             "img": "https://i.ibb.co/DfqB9hs/Sunrise-with-Grand-Palace-of-Bangkok-Thailand.jpg"
         },
         {
-            "id": 22,
+            "id": 8,
             "D_name": "Care That Goes Beyond",
             "type": "Gynecology",
             "description": "Mauris pellentesque amet, consectetur adipiscing elit hasellus. Tempor accumsan dapbus pellentesque amet liqua.",
             "img": "https://i.ibb.co/bdz1QLf/Norwegian-fishing-village-at-the-Lofoten-Islands-in-Norway-Dramatic-sunset-clouds-moving-over-steep.jpg"
         },
         {
-            "id": 24,
+            "id": 9,
             "D_name": "Our Next Level of Care",
             "type": "Cardiology",
             "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
             "img": "https://i.ibb.co/z5D402X/Beautiful-Nature-Norway-natural-landscape-aerial-photography.jpg"
         },
         {
-            "id": 25,
+            "id": 10,
             "D_name": "Care That Goes Beyond",
             "type": "Gynecology",
             "description": "Mauris pellentesque amet, consectetur adipiscing elit hasellus. Tempor accumsan dapbus pellentesque amet liqua.",
             "img": "https://i.ibb.co/bWyDCKw/Reykjavik-the-capital-city-of-iceland-in-winter-view-from-above.jpg"
         },
         {
-            "id": 26,
+            "id": 11,
             "D_name": "Blood Tests",
             "type": "Neurology",
             "description": "Vestibulum gravida augue, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan apibus liqua.",
             "img": "https://i.ibb.co/55gr6pv/Big-Ben-and-westminster-bridge-in-London.jpg"
         },
         {
-            "id": 27,
+            "id": 12,
             "D_name": "Our Next Level of Care",
             "type": "Cardiology",
             "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
             "img": "https://i.ibb.co/BK5cpNv/View-of-Colosseum-in-Rome-and-morning-sun-Italy-Europe.jpg"
         },
         {
-            "id": 28,
+            "id": 13,
             "D_name": "Care That Goes Beyond",
             "type": "Gynecology",
             "description": "Mauris pellentesque amet, consectetur adipiscing elit hasellus. Tempor accumsan dapbus pellentesque amet liqua.",
             "img": "https://i.ibb.co/RhZqZCr/Beautiful-postcard-view-of-the-famous-historic-town-of-Rothenburg-ob-der-Tauber-on-a-sunny-day-with.jpg"
         },
         {
-            "id": 29,
+            "id": 14,
             "D_name": "Blood Tests",
             "type": "Neurology",
             "description": "Vestibulum gravida augue, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan apibus liqua.",
