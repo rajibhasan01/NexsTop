@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import Professional from '../Professional/Professional';
 
 const Professionals = () => {
-    const [serviceData, setServiceData] = useState({});
+    const [guides, setGuides] = useState([]);
 
     useEffect(() => {
-        fetch('./database.json')
+        fetch('http://localhost:5000/guides?size=4')
             .then(res => res.json())
-            .then(data => setServiceData(data))
+            .then(data => setGuides(data))
             .catch(error => {
                 console.log(error.message);
             });
@@ -19,9 +19,9 @@ const Professionals = () => {
             <div className="row">
 
                 {
-                    serviceData.Professionals?.map(professional => <Professional
-                        key={professional.id}
-                        professional={professional}
+                    guides?.map(guide => <Professional
+                        key={guide.id}
+                        professional={guide}
                     />)
                 }
 
