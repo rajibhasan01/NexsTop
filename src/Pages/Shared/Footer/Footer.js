@@ -19,7 +19,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="col-md-6 px-4">
-                                <h6> Health Guard</h6>
+                                <h6> NexsTop Travel Co.</h6>
                                 <p>We care for your health and happy life</p>
                                 <Link to="#" className="btn-footer"> More Info </Link><br />
                                 <Link to="#" className="btn-footer"> Contact Us</Link>
@@ -43,8 +43,8 @@ const Footer = () => {
                                     </div>
                                     <div className="col-md-6 px-4">
                                         <ul>
-                                            <li> <Link to="#"> Ambulance</Link> </li>
-                                            <li> <Link to="#"> Fax</Link> </li>
+                                            <li> <Link to="#"> Air Ticket</Link> </li>
+                                            <li> <Link to="#"> Bus Ticket</Link> </li>
                                             <li> <Link to="#"> Terms</Link> </li>
                                             <li> <Link to="#"> Policy</Link> </li>
                                             <li> <Link to="#"> Refunds</Link> </li>

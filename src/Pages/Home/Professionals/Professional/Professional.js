@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import './Professional.css';
-import * as IconName from "react-icons/bs";
+import * as HiIconName from "react-icons/md";
 
 
 const Professional = ({ professional }) => {
@@ -22,7 +22,7 @@ const Professional = ({ professional }) => {
                             <Card.Text>
                                 {type}
                             </Card.Text>
-                            <Card.Text className="text-muted fw-bold mt-4 read-more">Details <IconName.BsPlusCircleFill className="fs-5 icon-background mb-1 ms-2" /></Card.Text>
+                            <Card.Text className="text-muted mt-4 read-more">view details <HiIconName.MdDoubleArrow className="fs-5 icon-background mb-1 ms-2" /></Card.Text>
                         </div>
 
                     </Card.Body>
@@ -36,7 +36,7 @@ const Professional = ({ professional }) => {
                                 <Card.Text>
                                     {type}
                                 </Card.Text>
-                                <Card.Text className="text-muted fw-bold mt-4 read-more">Details <IconName.BsPlusCircleFill className="fs-5 icon-background mb-1 ms-2" /></Card.Text>
+                                <Card.Text className="text-muted mt-4 read-more">view details <HiIconName.MdDoubleArrow className="fs-5 icon-background mb-1 ms-2" /></Card.Text>
                             </div>
 
                         </Card.Body>
