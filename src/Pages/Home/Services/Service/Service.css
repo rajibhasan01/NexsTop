@@ -9,6 +9,7 @@
 
 }
 
+
 .card-container:hover .text-title{
     color: tomato;
 
@@ -28,4 +29,8 @@
 
 .read-more:hover > .icon-background {
     transform: rotate(180deg);
+}
+
+.img-text-bg{
+    background-color: turquoise;
 }

@@ -15,9 +15,10 @@ const Services = () => {
     }, []);
 
     return (
-        <div className="container ">
-            <h1>Latest Packages</h1>
-            <Row xs={1} md={3} className="g-4 my-5">
+        <div className="container-fluid px-5">
+            <h3 className="google-font text-center text-warning">let's Try Now</h3>
+            <h1 className="text-center">Latest Packages</h1>
+            <Row xs={1} md={3} lg={4} className="g-5 my-5">
                 {
                     serviceData.Blog?.map(blog => <Service
                         key={blog.id}
