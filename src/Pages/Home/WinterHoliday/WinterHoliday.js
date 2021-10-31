@@ -3,7 +3,7 @@ import './WinterHoliday.css';
 
 const WinterHoliday = () => {
     return (
-        <div className="container my-5 pb-md-5">
+        <div className="container my-5 pt-5 pb-md-5">
             <div className="d-flex justify-content-center">
                 <div className="text-center">
                     <h2 className="google-font text-warning">Enjoy Your</h2>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const NotFound = () => {
     return (
-        <div className="container marginTop">
+        <div className="container py-5">
             <div className="row d-flex justify-content-around align-items-center my-5 py-5">
 
                 <div className="col-md-6 ">
@@ -14,7 +14,7 @@ const NotFound = () => {
 
 
                 <div className="col-md-6">
-                    <img src="https://i.ibb.co/27GcD4N/404-img-4.jpg" alt="error" />
+                    <img src="https://i.ibb.co/SrPG2DN/Pngtree-travel-girl-travel-tourism-travel-3845752.png" className="w-100" alt="error" />
 
 
                 </div>

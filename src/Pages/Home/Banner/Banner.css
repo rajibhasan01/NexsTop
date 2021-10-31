@@ -142,6 +142,9 @@
   transform: rotate(180deg);
   color:#e67e22;
 }
+.image-size{
+  width: 90%!important;
+}
 
 /* animation background */
 @keyframes animatedBackground {

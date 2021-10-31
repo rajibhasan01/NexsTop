@@ -66,7 +66,7 @@ const Login = () => {
             <div className="row container ">
                 <div className="col-lg-7 mx-auto pt-5">
                     <div className="">
-                        <p className="fs-3 fw-light text-muted pt-5 text-center text-lg-start">Welcome to Healthguard providers <br /> and administrators</p>
+                        <p className="fs-3 fw-light text-muted pt-5 text-center text-lg-start">Welcome to<span className="text-danger">NexsTop</span> Tour and<br /> Travel Guides Service</p>
                         {
                             !error.length || <small className="fw-light fs-6 text-dark"><br />{error}</small>
                         }
@@ -96,13 +96,13 @@ const Login = () => {
                     </div>
                 </div>
 
-                <div className="border-start col-lg-5 pt-md-5 assit-page">
+                <div className="border-start col-lg-5 pt-md-5 bg-warning assit-page">
                     <div>
-                        <p className="fs-4 fw-light text-success pt-5 mt-3 ps-2 text-start">We will gladly assist you with - </p>
+                        <p className="fs-4 fw-light text-white pt-5 mt-3 ps-2 text-start">We will gladly assist you with - </p>
                         <div className="row">
                             <div className="col-lg-6 my-3 ">
                                 <div className="d-md-flex">
-                                    <img src="https://i.ibb.co/YPBjx08/h4-icon-img-3-1.png" alt="" />
+                                    <img src="https://i.ibb.co/m6Hr8Mm/h4-icon-img-2.png" alt="" />
                                     <div className="ps-2">
                                         <p className="fw-bold mt-0"> <span>Dentalhygiene</span> <br />
                                             <span className="my-0 pt-0 fw-normal fs-6 d-block">Licensed hygienists</span></p>
@@ -111,7 +111,7 @@ const Login = () => {
                             </div>
                             <div className="col-lg-6 my-3">
                                 <div className="d-md-flex">
-                                    <img src="https://i.ibb.co/MMRy63b/h4-icon-img-2.png" alt="" />
+                                    <img src="https://i.ibb.co/m6Hr8Mm/h4-icon-img-2.png" alt="" />
                                     <div className="ps-2">
                                         <p className="fw-bold mt-0"> <span>Genencology</span> <br />
                                             <span className="my-0 pt-0 fw-normal fs-6 d-block">Modern nursing methods</span></p>
@@ -129,7 +129,7 @@ const Login = () => {
                             </div>
                             <div className="col-lg-6 my-3">
                                 <div className="d-md-flex">
-                                    <img src="https://i.ibb.co/Qvk6TMK/h4-icon-img-1.png" alt="" />
+                                    <img src="https://i.ibb.co/m6Hr8Mm/h4-icon-img-2.png" alt="" />
                                     <div className="ps-2">
                                         <p className="fw-bold mt-0"> <span>Dentalhygiene</span> <br />
                                             <span className="my-0 pt-0 fw-normal fs-6 d-block">Licensed hygienists</span></p>

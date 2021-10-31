@@ -18,10 +18,10 @@ const Banner = () => {
 
             </section>
 
-            <section className="about container-fluid p-5" id="about">
+            <section className="about container-fluid p-5 my-md-5" id="about">
 
                 <div className="image">
-                    <img src="https://i.ibb.co/0rJh7Z7/Pngtree-beach-travel-3d-elements-5356937-1.png" alt="" />
+                    <img src="https://i.ibb.co/SrPG2DN/Pngtree-travel-girl-travel-tourism-travel-3845752.png" className="image-size ms-5" alt="" />
                 </div>
 
                 <div className="content">

@@ -42,7 +42,7 @@ const Register = () => {
 
     return (
         <div className="container py-5 text-center">
-            <p className="fs-1 fw-light text-info pt-5 ">Welcome to Healthguard <br /> <br /> </p>
+            <p className="fs-1 fw-light text-info pt-5 ">Welcome to<span className="text-danger">Nexs</span>Top <br /> <br /> </p>
             {
                 !errors.length || <small className="fw-light fs-6 text-dark"><br />{errors}</small>
             }
