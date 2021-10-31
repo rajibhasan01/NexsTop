@@ -14,6 +14,7 @@ import GuideDetails from './Pages/Guides/GuideDetails/GuideDetails';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import SingleServiceDetails from './Pages/SingleServiceDetails/SingleServiceDetails';
 import Booking from './Pages/Bookings/Booking/Booking';
+import MyBookings from './Pages/Bookings/MyBookings/MyBookings';
 
 
 
@@ -30,6 +31,11 @@ function App() {
             <Route path='/register' component={Register} />
             <Route path='/servicesprovider' component={ServiceProvider} />
             <Route path='/guides' component={Guides} />
+
+            <PrivateRoute path='/mybooking'>
+              <MyBookings />
+            </PrivateRoute>
+
             <Route path='/guide/:drID' component={GuideDetails} />
 
             <PrivateRoute path='/tourplaces/:tourID'>
