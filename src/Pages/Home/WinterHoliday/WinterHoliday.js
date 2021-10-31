@@ -13,7 +13,7 @@ const WinterHoliday = () => {
 
             </div>
 
-            <div className="row g-5 my-3">
+            <div className="row g-4 my-3">
 
                 <div className="col-12 col-md-3">
                     <div className="card text-center border-0">

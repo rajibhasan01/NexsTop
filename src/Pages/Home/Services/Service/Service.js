@@ -23,7 +23,7 @@ const Service = (props) => {
 
                     <Card.Text className="text-black d-flex justify-content-between align-items-center"><span className="ps-0 ms-0 text-title">$400</span> <span><MdIconName.MdOutlineStarHalf className="fs-5 text-title" /><small className="py-2 text-title"> 6.7</small></span></Card.Text>
 
-                    <Card.Text className="text-muted mt-4 read-more">View Package<MdIconName.MdDoubleArrow className="fs-5 icon-background ms-2" /></Card.Text>
+                    <Card.Text className="text-muted mt-4 read-more login-cursor">View Package<MdIconName.MdDoubleArrow className="fs-5 icon-background ms-2" /></Card.Text>
                 </Card.Body>
             </Card>
         </Col>
