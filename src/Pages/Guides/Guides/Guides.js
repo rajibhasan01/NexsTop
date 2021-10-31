@@ -3,11 +3,11 @@ import { Row } from 'react-bootstrap';
 import Guide from '../Guide/Guide';
 
 const Guides = () => {
-    const [doctorList, setDoctorList] = useState([]);
+    const [guideList, setGuideList] = useState([]);
     useEffect(() => {
-        fetch('/database3.json')
+        fetch('http://localhost:5000/guides')
             .then(res => res.json())
-            .then(data => setDoctorList(data))
+            .then(data => setGuideList(data))
             .catch(error => { console.log(error.message) })
 
     }, []);
@@ -21,9 +21,9 @@ const Guides = () => {
 
                     {
 
-                        doctorList?.map(dctr => <Guide
-                            key={dctr.id}
-                            doctor={dctr}
+                        guideList?.map(guide => <Guide
+                            key={guide.id}
+                            doctor={guide}
                         />)
                     }
 

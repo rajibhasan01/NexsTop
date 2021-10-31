@@ -102,7 +102,7 @@ span {
   cursor: pointer;
 }
 .login-cursor:hover{
-  color: tomato;
+  color: #40E0D0!important;
 
 }
 

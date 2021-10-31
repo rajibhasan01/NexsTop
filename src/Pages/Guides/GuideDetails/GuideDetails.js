@@ -8,19 +8,19 @@ import './GuideDetails.css';
 
 const GuideDetails = () => {
     const { drID } = useParams();
-    const [doctorsInfo, setDoctorsInfo] = useState([]);
+    const [guideInfo, setGuideInfo] = useState([]);
 
     useEffect(() => {
-        fetch('/database3.json')
+        fetch('http://localhost:5000/guides')
             .then(res => res.json())
-            .then(data => setDoctorsInfo(data))
+            .then(data => setGuideInfo(data))
             .catch(error => { console.log(error.message) })
 
     }, []);
 
     const key = parseInt(drID);
 
-    const doctorInfo = doctorsInfo.filter(drInfo => key === drInfo.id);
+    const guide = guideInfo.filter(gdInfo => key === gdInfo.id);
 
 
     return (
@@ -30,8 +30,8 @@ const GuideDetails = () => {
                 <div className="bg-light py-4 mt-md-3 mb-md-5">
                     <div className="container-fuild mx-5 px-md-5 ">
                         <div className="d-flex justify-content-between align-items-center">
-                            <h3 className="text-dark">{doctorInfo[0]?.D_name}</h3>
-                            <h6 className="text-muted">Home - {doctorInfo[0]?.type} - <span className="text-info ms-0">{doctorInfo[0]?.D_name}</span></h6>
+                            <h3 className="text-dark">{guide[0]?.D_name}</h3>
+                            <h6 className="text-muted">Home - {guide[0]?.type} - <span className="text-info ms-0">{guide[0]?.D_name}</span></h6>
                         </div>
                     </div>
 
@@ -44,18 +44,18 @@ const GuideDetails = () => {
                                 <HashLink className="text-decoration-none text-info take-appointment read-more" to='/guides'><CgIcon.CgChevronDoubleLeft className="fs-5 icon-background mb-0" /> Back to Prev page</HashLink>
                             </Card.Text>
                             <div className="image-box">
-                                <Card.Img variant="top" src={doctorInfo[0]?.img} className="card-body-design gallery p-0" />
+                                <Card.Img variant="top" src={guide[0]?.img} className="card-body-design gallery p-0" />
                             </div>
 
                             <Card.Body className="my-5 d-flex justify-content-start">
                                 <div>
-                                    <Card.Title className="fw-bold fs-3">{doctorInfo[0]?.D_name}</Card.Title>
+                                    <Card.Title className="fw-bold fs-3">{guide[0]?.D_name}</Card.Title>
                                     <Card.Text className="text-info">
-                                        {doctorInfo[0]?.type}
+                                        {guide[0]?.type}
                                     </Card.Text>
 
                                     <Card.Text className="mb-5 text-muted">
-                                        {doctorInfo[0]?.description}
+                                        {guide[0]?.description}
                                     </Card.Text>
 
                                     <Card.Text className="text-muted fw-light mt-4 ">01754-063712</Card.Text>
@@ -63,7 +63,7 @@ const GuideDetails = () => {
                                     <Card.Text className="text-muted fw-light mt-4 py-2">hasan.rajib1996@gmail.com</Card.Text>
                                     <hr />
                                     <Card.Text className="fw-bold my-4 py-2">
-                                        <HashLink className="text-decoration-none fs-5 text-info take-appointment read-more" to='/appointment'>Make an Appointment<CgIcon.CgChevronDoubleRight className="fs-4 icon-background mb-0 ms-2" /></HashLink>
+                                        <HashLink className="text-decoration-none fs-5 text-info take-appointment read-more" to='/appointment'>Book Your Package<CgIcon.CgChevronDoubleRight className="fs-4 icon-background mb-0 ms-2" /></HashLink>
                                     </Card.Text>
                                     <Card.Text className="text-muted d-flex justify-content-between">
                                         <HashLink className="text-decoration-none text-info take-appointment read-more" to='/home'><CgIcon.CgChevronDoubleLeft className="fs-5 icon-background mb-0" /> Back to Home page</HashLink>

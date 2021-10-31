@@ -14,7 +14,7 @@ const Professionals = () => {
     }, []);
 
     return (
-        <div className="container my-5">
+        <div className="container my-5 pb-5">
             <h1 className="my-md-5 py-md-5">Meet our Guides</h1>
             <div className="row">
 

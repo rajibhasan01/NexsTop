@@ -33,9 +33,7 @@ function App() {
             <PrivateRoute path='/tourplaces/:tourID'>
               <SingleServiceDetails />
             </PrivateRoute>
-
             <Route path='*' component={NotFound} />
-
 
           </Switch>
           <Footer />
