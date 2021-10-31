@@ -8,3 +8,7 @@
 .img-hover:hover{
      transform: translateX(0px) translateY(-5px) scale(1.08);
 }
+
+.google-font{
+    font-family: 'Satisfy', cursive;
+}

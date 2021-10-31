@@ -1,3 +1,31 @@
-.google-font{
-    font-family: 'Satisfy', cursive;
+.text-justify{
+    text-align: justify;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.text-title:hover{
+    color: tomato;
+
+}
+
+.card-container:hover .text-title{
+    color: tomato;
+
+}
+
+.icon-background{
+    color: turquoise;
+    transition: transform 0.5s;
+}
+.text-background{
+    color: rgb(0, 146, 132);
+    
+}
+.icon-background:hover{
+    transform: rotate(180deg);
+}
+
+.read-more:hover > .icon-background {
+    transform: rotate(180deg);
 }
