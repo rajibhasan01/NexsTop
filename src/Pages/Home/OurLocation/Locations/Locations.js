@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import Location from '../Location/Location';
 
 const Locations = () => {
-    const [serviceData, setServiceData] = useState({});
+    const [locations, setLocations] = useState([]);
 
     useEffect(() => {
-        fetch('./database.json')
+        fetch('http://localhost:5000/locations')
             .then(res => res.json())
-            .then(data => setServiceData(data))
+            .then(data => setLocations(data))
             .catch(error => {
                 console.log(error.message);
             });
@@ -19,9 +19,9 @@ const Locations = () => {
             <hr className="d-md-none" />
             <div className="row">
                 {
-                    serviceData.Loaction?.map(lc => <Location
-                        key={lc.id}
-                        locate={lc}
+                    locations?.map(location => <Location
+                        key={location.id}
+                        locate={location}
                     />)
                 }
 

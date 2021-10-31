@@ -35,9 +35,7 @@ const SingleServiceDetails = () => {
     const availableDr = doctors.filter(dr => key === dr.D_id);
 
 
-    const rowNumber = [1, 2, 3];
     console.log("doctore", availableDr);
-
 
 
     return (
