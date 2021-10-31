@@ -5,20 +5,29 @@
             "D_name": "Our Next Level of Care",
             "type": "Cardiology",
             "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/L8gQ6nm/Aerial-view-of-Berlin-skyline-with-famous-TV-tower-and-Spree-river-in-beautiful-evening-light-at-sun.jpg"
         },
         {
             "id": 2,
-            "D_name": "Care That Goes Beyond",
-            "type": "Gynecology",
-            "description": "Mauris pellentesque amet, consectetur adipiscing elit hasellus. Tempor accumsan dapbus pellentesque amet liqua.",
+            "D_name": "Our Next Level of Care",
+            "type": "Cardiology",
+            "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/XC5nnmB/A-Dubai-cityscape-is-pictured-at-sunset-The-city-is-illuminated-in-the-bottom-portion-of-the-frame-b.jpg"
         },
         {
             "id": 3,
-            "D_name": "Blood Tests",
-            "type": "Neurology",
-            "description": "Vestibulum gravida augue, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan apibus liqua.",
+            "D_name": "Our Next Level of Care",
+            "type": "Cardiology",
+            "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/qFhjPtZ/view-on-Bruges-Bergen-Norway.jpg"
         },
         {
@@ -26,20 +35,29 @@
             "D_name": "Our Next Level of Care",
             "type": "Cardiology",
             "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/3RG5wMF/Aerial-view-of-London-and-the-Tower-Bridge-England-United-Kingdom.jpg"
         },
         {
             "id": 5,
-            "D_name": "Care That Goes Beyond",
-            "type": "Gynecology",
-            "description": "Mauris pellentesque amet, consectetur adipiscing elit hasellus. Tempor accumsan dapbus pellentesque amet liqua.",
+            "D_name": "Our Next Level of Care",
+            "type": "Cardiology",
+            "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/cc5hKDD/High-quality-stock-aerial-view-photo-of-Sacramento-s-Tower-Bridge-and-the-Sacramento-River-looking-t.jpg"
         },
         {
             "id": 6,
-            "D_name": "Blood Tests",
-            "type": "Neurology",
-            "description": "Vestibulum gravida augue, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan apibus liqua.",
+            "D_name": "Our Next Level of Care",
+            "type": "Cardiology",
+            "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/k8xr7Zs/high-angle-view-from-drone-point-of-Spiez-town.jpg"
         },
         {
@@ -47,13 +65,19 @@
             "D_name": "Our Next Level of Care",
             "type": "Cardiology",
             "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/DfqB9hs/Sunrise-with-Grand-Palace-of-Bangkok-Thailand.jpg"
         },
         {
             "id": 8,
-            "D_name": "Care That Goes Beyond",
-            "type": "Gynecology",
-            "description": "Mauris pellentesque amet, consectetur adipiscing elit hasellus. Tempor accumsan dapbus pellentesque amet liqua.",
+            "D_name": "Our Next Level of Care",
+            "type": "Cardiology",
+            "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/bdz1QLf/Norwegian-fishing-village-at-the-Lofoten-Islands-in-Norway-Dramatic-sunset-clouds-moving-over-steep.jpg"
         },
         {
@@ -61,41 +85,58 @@
             "D_name": "Our Next Level of Care",
             "type": "Cardiology",
             "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/z5D402X/Beautiful-Nature-Norway-natural-landscape-aerial-photography.jpg"
         },
         {
             "id": 10,
-            "D_name": "Care That Goes Beyond",
-            "type": "Gynecology",
-            "description": "Mauris pellentesque amet, consectetur adipiscing elit hasellus. Tempor accumsan dapbus pellentesque amet liqua.",
+            "D_name": "Our Next Level of Care",
+            "type": "Cardiology",
+            "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/bWyDCKw/Reykjavik-the-capital-city-of-iceland-in-winter-view-from-above.jpg"
         },
         {
             "id": 11,
-            "D_name": "Blood Tests",
-            "type": "Neurology",
-            "description": "Vestibulum gravida augue, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan apibus liqua.",
-            "img": "https://i.ibb.co/55gr6pv/Big-Ben-and-westminster-bridge-in-London.jpg"
-        },
-        {
-            "id": 12,
             "D_name": "Our Next Level of Care",
             "type": "Cardiology",
             "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
+            "img": "https://i.ibb.co/55gr6pv/Big-Ben-and-westminster-bridge-in-London.jpg"
+        },
+        {
+            "D_name": "Our Next Level of Care",
+            "type": "Cardiology",
+            "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/BK5cpNv/View-of-Colosseum-in-Rome-and-morning-sun-Italy-Europe.jpg"
         },
         {
             "id": 13,
-            "D_name": "Care That Goes Beyond",
-            "type": "Gynecology",
-            "description": "Mauris pellentesque amet, consectetur adipiscing elit hasellus. Tempor accumsan dapbus pellentesque amet liqua.",
+            "D_name": "Our Next Level of Care",
+            "type": "Cardiology",
+            "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/RhZqZCr/Beautiful-postcard-view-of-the-famous-historic-town-of-Rothenburg-ob-der-Tauber-on-a-sunny-day-with.jpg"
         },
         {
             "id": 14,
-            "D_name": "Blood Tests",
-            "type": "Neurology",
-            "description": "Vestibulum gravida augue, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan apibus liqua.",
+            "D_name": "Our Next Level of Care",
+            "type": "Cardiology",
+            "description": "Lorem ipsum dolor sit amet, pellentesque amet consectetur adipiscing elit hasellus. Tempor accumsan dapibus ua. ",
+            "price": "1150 /=",
+            "description_details": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones. CT is a painless, noninvasive way for your healthcare provider to diagnose conditions.",
+            "R_time": "The results of the scan usually take 24 hours. A radiologist, a physician who specializes in reading and interpreting CT scan and other radiologic images, will review your scan and prepare a report that explains them. In an emergency setting, such as a hospital or emergency room, healthcare providers often receive results within an hour. Once a radiologist and your healthcare provider have reviewed the results, you will either have another appointment or receive a call. Your healthcare provider will discuss the results with you.",
             "img": "https://i.ibb.co/55gr6pv/Big-Ben-and-westminster-bridge-in-London.jpg"
         }
     ],

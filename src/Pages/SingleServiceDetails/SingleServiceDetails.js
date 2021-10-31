@@ -8,13 +8,13 @@ import './SingleServiceDetails.css';
 import { Link } from 'react-router-dom';
 
 const SingleServiceDetails = () => {
-    const { serviceID } = useParams();
+    const { tourID } = useParams();
     const [singleItem, setSingleItem] = useState([]);
     const [doctors, setDoctors] = useState([]);
 
 
     useEffect(() => {
-        fetch('/database2.json')
+        fetch('http://localhost:5000/tourplaces')
             .then(res => res.json())
             .then(data => setSingleItem(data))
             .catch(error => { console.log(error.message) })
@@ -22,14 +22,14 @@ const SingleServiceDetails = () => {
     }, []);
 
     useEffect(() => {
-        fetch('/database3.json')
+        fetch('http://localhost:5000/guides')
             .then(res => res.json())
             .then(data => setDoctors(data))
             .catch(error => { console.log(error.message) })
 
     }, []);
 
-    const key = parseInt(serviceID);
+    const key = parseInt(tourID);
 
     const displayItem = singleItem.filter(item => key === item.id);
     const availableDr = doctors.filter(dr => key === dr.D_id);

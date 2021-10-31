@@ -4,7 +4,7 @@ import Service from '../Service/Service';
 import '../ServicesHeader/ServicesHeader';
 
 const Services = () => {
-    const [serviceData, setServiceData] = useState({});
+    const [tourPlaces, setTourPlaces] = useState([]);
     const [selection, setSelection] = useState(0);
     const [btnW, setBtnW] = useState(false);
     const [btnS, setBtnS] = useState(false);
@@ -12,26 +12,26 @@ const Services = () => {
 
 
     useEffect(() => {
-        fetch('./database.json')
+        fetch('http://localhost:5000/tourplaces')
             .then(res => res.json())
-            .then(data => setServiceData(data))
+            .then(data => setTourPlaces(data))
             .catch(error => {
                 console.log(error.message);
             });
     }, []);
 
-    let TourPlace = serviceData?.Blog;
+    let TourPlace = tourPlaces;
 
     if (selection === 1) {
-        TourPlace = serviceData?.Blog?.slice(0, 5);
+        TourPlace = tourPlaces?.slice(0, 5);
     }
 
     else if (selection === 2) {
-        TourPlace = serviceData?.Blog?.slice(5, 12);
+        TourPlace = tourPlaces?.slice(5, 12);
     }
 
     else if (selection === 3) {
-        TourPlace = serviceData?.Blog?.slice(8, 14);
+        TourPlace = tourPlaces?.slice(8, 14);
     }
 
     return (
@@ -60,9 +60,9 @@ const Services = () => {
 
             <Row xs={1} md={3} lg={4} className="g-5 my-5">
                 {
-                    TourPlace?.map(blog => <Service
-                        key={blog.id}
-                        blog={blog}
+                    TourPlace?.map(tp => <Service
+                        key={tp.id}
+                        tourPlace={tp}
                     />)
                 }
 

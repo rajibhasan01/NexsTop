@@ -30,7 +30,7 @@ function App() {
             <Route path='/servicesprovider' component={ServiceProvider} />
             <Route path='/guides' component={Guides} />
             <Route path='/guide/:drID' component={GuideDetails} />
-            <PrivateRoute path='/home/:serviceID'>
+            <PrivateRoute path='/tourplaces/:tourID'>
               <SingleServiceDetails />
             </PrivateRoute>
 
