@@ -2,6 +2,7 @@ import React from 'react'
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
+import * as SiIcons from "react-icons/si";
 
 export const SidebarData = [
     {
@@ -12,21 +13,21 @@ export const SidebarData = [
 
     },
     {
-        title: 'Services',
+        title: 'Packages',
         path: '/servicesprovider',
         icon: <IoIcons.IoMdPeople />,
         cName: 'nav-text'
     },
     {
-        title: 'The Doctors',
-        path: '/doctors',
-        icon: <FaIcons.FaUserMd />,
+        title: 'Our Guides',
+        path: '/guides',
+        icon: <IoIcons.IoIosPeople />,
         cName: 'nav-text'
     },
     {
         title: 'Register',
         path: '/register',
-        icon: <FaIcons.FaCartPlus />,
+        icon: <SiIcons.SiGnuprivacyguard />,
         cName: 'nav-text'
     },
     {
@@ -37,8 +38,8 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Appointment',
-        path: './appointment',
+        title: 'Booking',
+        path: './booking',
         icon: <FaIcons.FaEnvelopeOpenText />,
         cName: 'nav-text'
     },

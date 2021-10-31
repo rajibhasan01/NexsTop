@@ -8,6 +8,7 @@ import Register from './Pages/Login/Register/Register';
 import Footer from './Pages/Shared/Footer/Footer';
 import Navbar from './Pages/Shared/Header/Navbar';
 import NotFound from './Pages/NotFound/NotFound';
+import ServiceProvider from './Pages/ServiceProvider/ServiceProvider';
 
 
 
@@ -22,6 +23,7 @@ function App() {
             <Route exact path='/home' component={Home} />
             <Route path='/login' component={Login} />
             <Route path='/register' component={Register} />
+            <Route path='/servicesprovider' component={ServiceProvider} />
             <Route path='*' component={NotFound} />
 
 
