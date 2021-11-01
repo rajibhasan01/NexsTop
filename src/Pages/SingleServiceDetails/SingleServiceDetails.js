@@ -50,7 +50,7 @@ const SingleServiceDetails = () => {
                                 </Card.Text>
 
                                 <Card.Text className="text-dark fs-5">
-                                    How long does it take to get results?
+                                    How long does it take to get visas?
                                 </Card.Text>
 
                                 <Card.Text className="text-success">
@@ -58,12 +58,12 @@ const SingleServiceDetails = () => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer className="border-0 ps-0 bg-white">
-                                <small className="text-dark">Price:<span className="text-muted fw-normal ms-1"> $ {displayItem[0]?.price}</span></small>
+                                <small className="text-dark">Cost:<span className="text-muted fw-normal ms-1"> $ {displayItem[0]?.price}</span></small>
                             </Card.Footer>
                             <Card.Text className="text-muted d-flex justify-content-between">
-                                <HashLink className="text-decoration-none login-cursor text-info take-appointment read-more" to='/home'><CgIcon.CgChevronDoubleLeft className="fs-5 icon-background mb-0" /> Back to Home page</HashLink>
+                                <HashLink className="text-decoration-none login-cursor text-info take-appointment read-more fs-6" to='/home'><CgIcon.CgChevronDoubleLeft className="fs-5 icon-background mb-0" /> Back to Home page</HashLink>
 
-                                <Link className="text-decoration-none login-cursor text-info read-more" to={`/booking/${displayItem[0]?.id}`}>Book this package<CgIcon.CgChevronDoubleRight className="fs-5 icon-background mb-0 ms-2" /></Link>
+                                <Link className="text-decoration-none login-cursor text-info read-more fs-6" to={`/booking/${displayItem[0]?.id}`}>Book this package<CgIcon.CgChevronDoubleRight className="fs-5 icon-background mb-0 ms-2" /></Link>
                             </Card.Text>
                         </Card>
                     </div>
