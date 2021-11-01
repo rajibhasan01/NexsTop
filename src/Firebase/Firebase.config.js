@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDQpHbFc6vpLMJoxX0ZL1bv-h6f64IGeuU",
-    authDomain: "health-guard-8630c.firebaseapp.com",
-    projectId: "health-guard-8630c",
-    storageBucket: "health-guard-8630c.appspot.com",
-    messagingSenderId: "555778462541",
-    appId: "1:555778462541:web:2b23d6ee64119c878d5d04"
+    apiKey: "AIzaSyBrm24vqWiUyxRob_nkqfEDoQ1QpMW4t9s",
+    authDomain: "nexstop-travel.firebaseapp.com",
+    projectId: "nexstop-travel",
+    storageBucket: "nexstop-travel.appspot.com",
+    messagingSenderId: "234683549472",
+    appId: "1:234683549472:web:a56135fe8235c6e13c3945"
 };
 
 export default firebaseConfig;
