@@ -12,7 +12,7 @@ const Services = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/tourplaces')
+        fetch('https://vast-headland-83482.herokuapp.com/tourplaces')
             .then(res => res.json())
             .then(data => setTourPlaces(data))
             .catch(error => {

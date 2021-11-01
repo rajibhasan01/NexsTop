@@ -5,7 +5,7 @@ import Guide from '../Guide/Guide';
 const Guides = () => {
     const [guideList, setGuideList] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/guides')
+        fetch('https://vast-headland-83482.herokuapp.com/guides')
             .then(res => res.json())
             .then(data => setGuideList(data))
             .catch(error => { console.log(error.message) })

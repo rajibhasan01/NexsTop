@@ -11,7 +11,7 @@ const GuideDetails = () => {
     const [guideInfo, setGuideInfo] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/guides')
+        fetch('https://vast-headland-83482.herokuapp.com/guides')
             .then(res => res.json())
             .then(data => setGuideInfo(data))
             .catch(error => { console.log(error.message) })

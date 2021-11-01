@@ -9,13 +9,13 @@ const MyBookings = () => {
     const [countDelete, setCountDelete] = useState(0);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/users?search=${user.email}`)
+        fetch(`https://vast-headland-83482.herokuapp.com/users?search=${user.email}`)
             .then(res => res.json())
             .then(data => setMyOrder(data));
     }, [countDelete]);
 
     const handleRemove = id => {
-        const url = `http://localhost:5000/users/${id}`
+        const url = `https://vast-headland-83482.herokuapp.com/users/${id}`
         const proceed = window.confirm('Are you sure to cancelling this bookings');
 
         if (proceed) {

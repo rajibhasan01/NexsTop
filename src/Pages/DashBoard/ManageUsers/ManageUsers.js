@@ -12,7 +12,7 @@ const ManageUsers = () => {
 
     useEffect(() => {
 
-        fetch(`http://localhost:5000/manageusers`)
+        fetch(`https://vast-headland-83482.herokuapp.com/manageusers`)
             .then(res => res.json())
             .then(data => setUserData(data));
 
@@ -22,7 +22,7 @@ const ManageUsers = () => {
         const proceed = window.confirm("Are you sure! you want to delete this?");
 
         if (proceed) {
-            fetch(`http://localhost:5000/manageusers/${email}`, {
+            fetch(`https://vast-headland-83482.herokuapp.com/manageusers/${email}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())
@@ -39,7 +39,7 @@ const ManageUsers = () => {
     const handleUpdate = email => {
         const status = ['Approved'];
 
-        fetch(`http://localhost:5000/manageusers/${email}`, {
+        fetch(`https://vast-headland-83482.herokuapp.com/manageusers/${email}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

@@ -14,7 +14,7 @@ const SingleServiceDetails = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/tourplaces')
+        fetch('https://vast-headland-83482.herokuapp.com/tourplaces')
             .then(res => res.json())
             .then(data => setSingleItem(data))
             .catch(error => { console.log(error.message) })
@@ -22,7 +22,7 @@ const SingleServiceDetails = () => {
     }, []);
 
     useEffect(() => {
-        fetch('http://localhost:5000/guides')
+        fetch('https://vast-headland-83482.herokuapp.com/guides')
             .then(res => res.json())
             .then(data => setGuides(data))
             .catch(error => { console.log(error.message) })

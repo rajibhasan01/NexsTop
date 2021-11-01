@@ -5,7 +5,7 @@ const Locations = () => {
     const [locations, setLocations] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/locations')
+        fetch('https://vast-headland-83482.herokuapp.com/locations')
             .then(res => res.json())
             .then(data => setLocations(data))
             .catch(error => {

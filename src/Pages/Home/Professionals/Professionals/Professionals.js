@@ -5,7 +5,7 @@ const Professionals = () => {
     const [guides, setGuides] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/guides?size=4')
+        fetch('https://vast-headland-83482.herokuapp.com/guides?size=4')
             .then(res => res.json())
             .then(data => setGuides(data))
             .catch(error => {
