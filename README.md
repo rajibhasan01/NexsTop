@@ -1,16 +1,17 @@
 # React Project Name - NexsTop
 
 Here our website provide different types of travel servieces
-1. Book Your Desire Package
+1. Select your desire destination
 2. Book Ticket
 3. Find Places
 4. Lattest Blogs
 5. Tourist Guide Service
+6. Manage Users
 
 
-For poor people there we provide a free course.
 
 ### `Project Demo - with live link`
+https://nexstop-travel.web.app/
 
 
 ## Available Scripts
