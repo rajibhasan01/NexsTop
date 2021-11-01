@@ -16,6 +16,7 @@ import SingleServiceDetails from './Pages/SingleServiceDetails/SingleServiceDeta
 import Booking from './Pages/Bookings/Booking/Booking';
 import MyBookings from './Pages/Bookings/MyBookings/MyBookings';
 import ManageUsers from './Pages/DashBoard/ManageUsers/ManageUsers';
+import AddService from './Pages/DashBoard/AddService/AddService';
 
 
 
@@ -35,6 +36,10 @@ function App() {
 
             <PrivateRoute path='/mybooking'>
               <MyBookings />
+            </PrivateRoute>
+
+            <PrivateRoute path='/addservice'>
+              <AddService />
             </PrivateRoute>
 
             <PrivateRoute path='/manageusers'>

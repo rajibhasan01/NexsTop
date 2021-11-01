@@ -59,6 +59,13 @@ export const SidebarData = [
         cname: 'nav-text'
     },
     {
+        title: 'Add Service',
+        path: '/addservice',
+        icon: <MdIcons.MdOutlinePostAdd />,
+        cName: 'nav-text d-none',
+        cname: 'nav-text'
+    },
+    {
         title: 'Support',
         path: '/support',
         icon: <IoIcons.IoMdHelpCircle />,

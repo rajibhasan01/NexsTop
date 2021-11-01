@@ -31,8 +31,8 @@ const SingleServiceDetails = () => {
 
     const key = parseInt(tourID);
 
-    const displayItem = singleItem.filter(item => key === item.id);
-    const availableGD = guides.filter(dr => key === dr.D_id);
+    const displayItem = singleItem.filter(item => key == item.id);
+    const availableGD = guides.filter(dr => key == dr.D_id);
 
 
     return (
