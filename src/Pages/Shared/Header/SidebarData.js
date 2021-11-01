@@ -3,6 +3,7 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 import * as SiIcons from "react-icons/si";
+import * as MdIcons from "react-icons/md";
 
 
 export const SidebarData = [
@@ -47,6 +48,13 @@ export const SidebarData = [
         title: 'My Bookings',
         path: '/mybooking',
         icon: <FaIcons.FaEnvelopeOpenText />,
+        cName: 'nav-text d-none',
+        cname: 'nav-text'
+    },
+    {
+        title: 'Manage Users',
+        path: '/manageusers',
+        icon: <MdIcons.MdDashboardCustomize />,
         cName: 'nav-text d-none',
         cname: 'nav-text'
     },

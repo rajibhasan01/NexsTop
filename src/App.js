@@ -15,6 +15,7 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import SingleServiceDetails from './Pages/SingleServiceDetails/SingleServiceDetails';
 import Booking from './Pages/Bookings/Booking/Booking';
 import MyBookings from './Pages/Bookings/MyBookings/MyBookings';
+import ManageUsers from './Pages/DashBoard/ManageUsers/ManageUsers';
 
 
 
@@ -34,6 +35,10 @@ function App() {
 
             <PrivateRoute path='/mybooking'>
               <MyBookings />
+            </PrivateRoute>
+
+            <PrivateRoute path='/manageusers'>
+              <ManageUsers />
             </PrivateRoute>
 
             <Route path='/guide/:drID' component={GuideDetails} />
