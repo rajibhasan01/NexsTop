@@ -15,8 +15,10 @@ const MyBookings = () => {
 
     return (
         <div className="py-5 text-center container">
-            <h1 className="mt-5">{user.displayName}</h1>
-            <div className="row g-4 my-5">
+            <h4 className="mt-5 google-font text-warning">yeea my bookings</h4>
+            <h1 className="py-2 text-muted">{user.displayName}</h1>
+
+            <div className="row g-4 g-md-5 my-5">
                 {
                     myOrder?.map(order =>
                         <MyCart
