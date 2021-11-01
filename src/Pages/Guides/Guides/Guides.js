@@ -14,7 +14,7 @@ const Guides = () => {
 
     return (
         <div className="marginTop">
-            <img src="https://i.ibb.co/TYXYR5d/meet-the-doctors.jpg" className="w-100 mb-md-5" alt="meet the doctor" />
+            <img src="https://i.ibb.co/BjMdfqM/duy-pham-Cecb0-8-Hx-o-unsplash.jpg" className="w-100 mb-md-5" alt="meet the guide" />
 
             <div className="container-fluid px-5 my-5">
                 <Row xs={1} md={3} lg={4} xl={5} className="g-5 px-md-5">
