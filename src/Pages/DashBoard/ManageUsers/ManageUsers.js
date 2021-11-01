@@ -7,6 +7,8 @@ import useAuth from '../../../Hooks/useAuth';
 const ManageUsers = () => {
     const { user } = useAuth();
     const [userData, setUserData] = useState([]);
+    const [countDelete, setCountDelete] = useState(0);
+
 
     useEffect(() => {
 
@@ -14,7 +16,29 @@ const ManageUsers = () => {
             .then(res => res.json())
             .then(data => setUserData(data));
 
-    }, [])
+    }, [countDelete]);
+
+    const handleDelete = email => {
+        const proceed = window.confirm("Are you sure! you want to delete this?");
+
+        if (proceed) {
+            fetch(`http://localhost:5000/manageusers/${email}`, {
+                method: 'DELETE'
+            })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.acknowledged) {
+                        alert('Remove successfully');
+                        setCountDelete(data)
+                    }
+                });
+        }
+
+    }
+
+    const handleUpdate = email => {
+        console.log(email)
+    }
 
     return (
         <div className="py-5">
@@ -36,6 +60,9 @@ const ManageUsers = () => {
                             userData?.map(uData => <User
                                 key={uData._id}
                                 data={uData}
+                                handleRemove={handleDelete}
+                                handleUpdate={handleUpdate}
+
                             />)
                         }
                     </tbody>
