@@ -29,7 +29,7 @@ const ManageUsers = () => {
                 .then(data => {
                     if (data.acknowledged) {
                         alert('Remove successfully');
-                        setCountDelete(data)
+                        setCountDelete(countDelete + 1);
                     }
                 });
         }
@@ -37,12 +37,29 @@ const ManageUsers = () => {
     }
 
     const handleUpdate = email => {
-        console.log(email)
+        const status = ['Approved'];
+
+        fetch(`http://localhost:5000/manageusers/${email}`, {
+            method: 'PUT',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(status)
+        })
+            .then(res => res.json())
+            .then(data => {
+                if (data.acknowledged) {
+                    alert('Request Approved');
+                    setCountDelete(countDelete + 1);
+                }
+            });
     }
 
     return (
         <div className="py-5">
             <div className="text-center container mt-5 py-5">
+                <h4 className="google-font text-warning">Admin Panel</h4>
+                <h1 className="pb-5">Manage All Data Here</h1>
                 <table className="table table-hover ">
                     <thead className="background-thead">
                         <tr>
@@ -57,11 +74,12 @@ const ManageUsers = () => {
                     </thead>
                     <tbody>
                         {
-                            userData?.map(uData => <User
+                            userData?.map((uData, i) => <User
                                 key={uData._id}
                                 data={uData}
                                 handleRemove={handleDelete}
                                 handleUpdate={handleUpdate}
+                                id={i}
 
                             />)
                         }
@@ -69,6 +87,7 @@ const ManageUsers = () => {
                 </table>
 
             </div>
+
 
         </div>
     );
