@@ -19,9 +19,10 @@ const Professionals = () => {
             <div className="row">
 
                 {
-                    guides?.map(guide => <Professional
+                    guides?.map((guide, i) => <Professional
                         key={guide.id}
                         professional={guide}
+                        i={i}
                     />)
                 }
 

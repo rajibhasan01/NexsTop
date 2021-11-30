@@ -5,9 +5,9 @@ import * as HiIconName from "react-icons/md";
 import { Link } from 'react-router-dom';
 
 
-const Professional = ({ professional }) => {
+const Professional = ({ professional, i }) => {
     const { id, D_name, img, type } = professional;
-    const sate = id % 2;
+    const sate = i % 2;
     return (
         <div className="col-md-3 bg-white">
 
